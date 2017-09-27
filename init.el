@@ -34,7 +34,9 @@
  ;; If there is more than one, they won't work right.
  '(elpy-modules (quote (elpy-module-company elpy-module-eldoc elpy-module-flymake elpy-module-pyvenv elpy-module-yasnippet elpy-module-sane-defaults)))
  '(elpy-rpc-backend "jedi")
- '(frame-background-mode (quote dark)))
+ '(frame-background-mode (quote dark))
+ '(split-height-threshold nil)
+ '(split-width-threshold 0))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
